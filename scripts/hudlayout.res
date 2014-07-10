@@ -10,7 +10,7 @@
 		"zpos"			"2"
 
 		"xpos"			"c-100"
-		"ypos"			"c-101"
+		"ypos"			"c-102"
 		"wide"			"201"
 		"tall"			"200"
 
@@ -18,7 +18,7 @@
 		"labelText"		"o"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"Crosshair"
+		"fgcolor"		"255 255 255 255"
 	}
 	"Crosshair_ya_Hud"
 		{
@@ -30,8 +30,8 @@
 		"wide"			"201"
 		"tall"			"200"
 		"tall"			"480"
+		
         "enabled"		"0"
-        
         "visible"		"0"			 //"1" to enable
         
 		"labeltext"	""              //Change this to use a different crosshair
@@ -50,8 +50,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCrossLarge"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-102"
@@ -533,20 +533,20 @@
 
 		"MaxDeathNotices" "4"
 		"IconScale"	  	  "0.35"
-		"LineHeight"	  "14"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "3"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Quake10"
+		"TextFont"			"Quake10"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"255 255 255 255"
+		"TeamBlue"			"HUDBlueTeamSolid"
+		"TeamRed"			"HUDRedTeamSolid"
+		"IconColor"			"255 255 255 255"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"OmpDarkerBG"
-		"LocalBackgroundColor"	"HudWhite"
+		"BaseBackgroundColor"	"50 50 50 180"
+		"LocalBackgroundColor"	"255 255 255 200"
 	}
 
 	HudVehicle
