@@ -73,28 +73,28 @@
 		"xpos_minmode"	"20"
 		"ypos_minmode"	"20"
 		"wide_minmode"	"52"
-		"tall_minmode"	"51" // omp -- -1 alignment fix.
+		"tall_minmode"	"51" 
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"3"
-		"ypos"			"20" // omp -- -9 Mac fix.
+		"xpos"			"0"
+		"ypos"			"20" 
 		"zpos"			"5"
 		"wide"			"130"
-		"tall"			"56" // omp -- +18 Mac fix.
+		"tall"			"56" 
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Quake56"
-		"fgcolor"		"OmpHP"
+		"fgcolor"		"255 255 255 255"
 
 		"xpos_minmode"	"0"
-		"ypos_minmode"	"27" // omp -- -6 Mac fix.
+		"ypos_minmode"	"27" 
 		"wide_minmode"	"91"
-		"tall_minmode"	"37" // omp -- +12 Mac fix.
+		"tall_minmode"	"37" 
 		"font_minmode"	"FuturaHeavy36"
 	}								
 	"PlayerStatusHealthValueShadow"
